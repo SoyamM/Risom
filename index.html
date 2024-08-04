@@ -39,7 +39,7 @@
             color: rgb(255, 255, 255);
             text-align: center;
             font-size: 70px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .Upcoming {
             font-size: 50px;
@@ -60,7 +60,7 @@
             font-size: 40px;
             color: rgb(255, 10, 10);
             text-align: justify;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin-top: 1px;
             margin-left: 90px;
         }
@@ -68,15 +68,21 @@
             font-size: 80px;
             color: rgb(255, 255, 255);
             text-align: center;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .about1 {
             font-size: 30px;
             color: rgb(255, 255, 255);
             text-align: center;
-            font-family:'Times New Roman', Times, serif;
+            font-family: 'Times New Roman', Times, serif;
             margin-left: 90px;
             margin-right: 90px;
+        }
+        .about2 {
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
         }
         @media screen and (max-width: 600px) {
             .start {
@@ -114,22 +120,27 @@
             }
         }
         .box1 img {
-            width: 50px; 
-            height: 50px; 
-            border-radius: 60%; 
-            overflow: hidden; 
-            border: 1px solid #ccc; 
+            width: 50px;
+            height: 50px;
+            border-radius: 60%;
+            overflow: hidden;
+            border: 1px solid #ccc;
         }
         .box1 img {
-            width: 400px; 
-            height: 400px; 
-            object-fit: cover; 
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
         }
-        .about2 {
-            font-size: 30px;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            font-family:'Times New Roman', Times, serif;
+        #box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+            border: 2px solid rgb(241, 152, 193);
+            padding: 20px;
+            margin: 20px auto;
+            width: fit-content;
+            background-color: rgba(0, 0, 0, 0.5); /* optional, for better visibility */
         }
     </style>
 </head>
@@ -141,9 +152,11 @@
     <h3>Our Upcoming event...</h3>
     <h4 class="Upcoming">Annual Event (2024)</h4>
     <h5 class="event">
-        Join us at Risom for an unforgettable event of music and celebration at our annual musical extravaganza! on Saturday, August 31st! Set against the backdrop of a beautiful summer evening, this event promises to showcase an incredible lineup of talented artists and musicians from various genres. Whether you're a fan of classical symphonies, jazz, rock, or pop, there's something for everyone to enjoy and participate Don't miss out on this spectacular event that marks the highlight of our cultural calender. We look forward to seeing you there!
+        Join us at Risom for an unforgettable event of music and celebration at our annual musical extravaganza! on Saturday, August 31st! Set against the backdrop of a beautiful summer evening, this event promises to showcase an incredible lineup of talented artists and musicians from various genres. Whether you're a fan of classical symphonies, jazz, rock, or pop, there's something for everyone to enjoy and participate. Don't miss out on this spectacular event that marks the highlight of our cultural calendar. We look forward to seeing you there!
     </h5>
-    <a href="https://forms.gle/EANuAfEpQ24iRcKF6"><h4 class="link">Click here to register</h4></a>
+    <div id="box">
+        <a href="https://forms.gle/EANuAfEpQ24iRcKF6"><h4 class="link">Click here to register</h4></a>
+    </div>
     <h2 class="about">About RISOM</h2>
     <h4 class="about1">
         RISOM is an inspiring organization dedicated to providing opportunities for aspiring singers who have been unable to pursue their passion due to various challenges. Founded with the mission to break down barriers and create an inclusive platform, RISOM empowers individuals from all backgrounds to showcase their talents and achieve their musical dreams. By offering access to resources and performance opportunities, RISOM ensures that every voice can be heard, regardless of past obstacles. Whether it's financial constraints, lack of access to professional training, or personal hardships, RISOM stands as a beacon of hope and support for those determined to sing and share their music with the world. Through events, workshops, and community engagement, RISOM not only nurtures talent but also fosters a sense of belonging and artistic growth.
